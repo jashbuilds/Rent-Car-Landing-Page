@@ -314,7 +314,7 @@
     background-repeat: no-repeat;
 }
 
-.landing-page-container .main .section-download .download-text {
+.landing-page-container .main .section-download .download-container .download-placeholder {
     width: 161px;
     height: 42px;
     background-color: var(--primary-blue-transparent);
@@ -323,7 +323,7 @@
     margin-top: 120px;
 }
 
-.landing-page-container .main .section-download .text-free {
+.landing-page-container .main .section-download .download-container .text-free {
     color: var(--primary-blue);
 }
 
@@ -472,6 +472,49 @@
     .landing-page-container .main .section-testimonials {
         background-position: 5% 20%, 95% 0%;
     }
+
+    .landing-page-container .main .section-download .download-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+
+
+    .landing-page-container .main .section-testimonials .card-slider .card-track .card-container {
+        width: 438px;
+        height: 794px;
+        flex-direction: column !important;
+        overflow: hidden;
+        border-radius: 24px;
+    }
+
+    .landing-page-container .main .section-testimonials .card-slider .card-track .card-container .card-img-container {
+        width: 100% !important;
+        height: 50% !important;
+        border-radius: 24px;
+    }
+
+    .landing-page-container .main .section-testimonials .card-slider .card-track .card-container .card-content-container {
+        width: 100% !important;
+    }
+
+    .landing-page-container .main .section-testimonials .card-slider .card-track .card-container .card-content-container .card-content .rating-text .rating {
+        font-size: 40px;
+    }
+
+    .landing-page-container .main .section-testimonials .card-slider .card-track .card-container .card-content-container .card-content .sophia {
+        margin-top: 19px;
+    }
+
+    .landing-page-container .main .section-testimonials {
+        background-position: 2% 13%, 98% 0%;
+        background-size: 40%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -563,40 +606,5 @@
 @media only screen and (max-width: 460px) {
     .landing-page-container .hero-wrapper {
         background-size: 260px 580px !important;
-    }
-}
-
-@media only screen and (max-width: 830px) {
-
-
-    .landing-page-container .main .section-testimonials .card-slider .card-track .card-container {
-        width: 438px;
-        height: 794px;
-        flex-direction: column !important;
-        overflow: hidden;
-        border-radius: 24px;
-    }
-
-    .landing-page-container .main .section-testimonials .card-slider .card-track .card-container .card-img-container {
-        width: 100% !important;
-        height: 50% !important;
-        border-radius: 24px;
-    }
-
-    .landing-page-container .main .section-testimonials .card-slider .card-track .card-container .card-content-container {
-        width: 100% !important;
-    }
-
-    .landing-page-container .main .section-testimonials .card-slider .card-track .card-container .card-content-container .card-content .rating-text .rating {
-        font-size: 40px;
-    }
-
-    .landing-page-container .main .section-testimonials .card-slider .card-track .card-container .card-content-container .card-content .sophia {
-        margin-top: 19px;
-    }
-
-    .landing-page-container .main .section-testimonials {
-        background-position: 2% 13%, 98% 0%;
-        background-size: 40%;
     }
 }
