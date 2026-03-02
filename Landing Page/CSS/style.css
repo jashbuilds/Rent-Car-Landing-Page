@@ -28,6 +28,8 @@
 .landing-page-container{
     font-family: 'Poppins', sans-serif;
 }
+
+/* Custom Color Classes */
 .font-dark-black{
     color: rgba(0, 0, 0, 1);
 }
@@ -60,6 +62,8 @@
     color: var(--medium-gray);
 }
 
+/* Custom Font Size Classes */
+
 .font-48{
     font-size: var(--large-font);
 }
@@ -91,6 +95,13 @@
 .font-12{
     font-size: 12px;
 }
+
+.xlarge-font{
+    font-size: var(--xlarge-font);
+}
+
+/* Custom Width Classes */
+
 .w-90{
     width: 90%;
 }
@@ -114,6 +125,8 @@
     width: 305px;
 }
 
+/* Custom Margin Classes */
+
 .mt-50{
     margin-top: 50px;
 }
@@ -136,10 +149,6 @@
 
 .mb-50{
     margin-bottom: 50px;
-}
-
-.xlarge-font{
-    font-size: var(--xlarge-font);
 }
 
 .px-40 {
