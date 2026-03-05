@@ -53,6 +53,12 @@
     color: var(--light-blue) !important;
 }
 
+@media only screen and (max-width: 1200px) {
+    .landing-page-container .footer-container .footer-row {
+        margin: auto 50px;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     .landing-page-container .footer-container .footer-row .footer-cols {
         height: auto;
