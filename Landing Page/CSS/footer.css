@@ -1,5 +1,4 @@
 .landing-page-container .footer-container {
-    width: 100%;
     background-color: var(--dark-blue);
 }
 
@@ -61,10 +60,6 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .landing-page-container .footer-container .footer-row .footer-cols {
-        height: auto;
-    }
-
     .landing-page-container .footer-container .footer-row .footer-cols .social-icons {
         margin-bottom: 70px;
     }

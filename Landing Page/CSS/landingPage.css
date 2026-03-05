@@ -46,36 +46,37 @@
 
 .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card {
     background: var(--primary-white);
-    margin-top: -29px;
     border-radius: 12px;
+    box-shadow: 0px 6px 12px 0px #135EAC1F;
+    margin: -29px 135px 0px 135px;
 }
 
-.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .search-item {
+.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-item {
     padding: 13px;
 }
 
-.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .search-item .card-heading {
+.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-item .search-content .card-heading {
     font-size: var(--small-font);
     color: var(--secondary-dark);
 }
 
-.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .search-item .card-subheading {
+.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-item .search-content .card-subheading {
     font-size: var(--xsmall-font);
     color: var(--light-gray-2);
 }
 
-.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .search-button .search-text {
+.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-button .search-text {
     padding: 11px 50px !important;
     background-color: var(--primary-blue);
     transition: 0.3s ease;
     border-radius: 8px;
 }
 
-.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .search-button .search-text:hover {
+.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-button .search-text:hover {
     background-color: var(--primary-blue-dark);
 }
 
-.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .row>.search-item:nth-child(-n+2)::after {
+.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box>.search-item:nth-child(-n+2)::after {
     content: "";
     position: absolute;
     right: 0;
@@ -98,7 +99,7 @@
 .landing-page-container .main .section-work .card .icon-container {
     width: 112px;
     height: 112px;
-    background-color: var(--primary-blue-transparent);
+    background-color: var(--light-cyan);
     border-radius: 16px;
 }
 
@@ -109,6 +110,7 @@
 
 .landing-page-container .main .section-work .card .card-head {
     margin-bottom: 10px;
+    color: var(--black);
 }
 
 .landing-page-container .main .section-work .brand-slider {
@@ -156,6 +158,10 @@
     background-position: 0% 80%;
 }
 
+.landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .why-choose-us .offer-text {
+    /* font-size: clamp(30px, 4vw, 38px) !important; */
+}
+
 .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .why-choose-us {
     width: 180px;
     height: 42px;
@@ -167,7 +173,7 @@
 .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .card-content .icon-container {
     width: 73px !important;
     height: 64px !important;
-    background-color: var(--primary-blue-transparent);
+    background-color: var(--light-cyan);
     border-radius: 16px;
 }
 
@@ -179,6 +185,14 @@
 
 .landing-page-container .main .section-deals {
     margin: 70px auto;
+}
+
+.landing-page-container .main .section-deals .cards-row .card-container .card .btn-primary {
+    background-color: var(--primary-blue) !important;
+}
+
+.landing-page-container .main .section-deals .cards-row .card-container .card .btn-primary:hover{
+    background-color: var(--primary-blue-dark) !important;
 }
 
 .landing-page-container .main .section-deals .cards-row .card-container .card .card-img-container {
@@ -295,6 +309,12 @@
         width: 80% !important;
         margin-top: 50px;
     }
+
+    .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .offer-text {
+        font-size: var(--medium-font);
+        width: 100% !important;
+    }
+
 }
 
 @media only screen and (max-width: 1399px) {
@@ -306,6 +326,14 @@
 @media only screen and (max-width: 1340px) {
     .landing-page-container .hero-wrapper .hero .hero-section .hero-container .hero-head-container .hero-head {
         margin-top: 50px;
+    }
+
+    .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .card-content .card-subhead {
+        font-size: var(--xsmall-font);
+    }
+
+    .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .card-content .card-head {
+        font-size: var(--regular-font);
     }
 }
 
@@ -324,17 +352,16 @@
         margin-top: 50px;
     }
 
-    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .search-item {
+    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-item {
         padding: 11px;
     }
 
-    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .search-item .card-heading {
+    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-item .search-content .card-heading {
         font-size: var(--xsmall-font);
     }
 
     .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .offer-text {
         font-size: var(--semi-medium-font);
-        width: 100% !important;
     }
 
     .landing-page-container .main .section-deals .cards-row .card-container .card .card-body .lamborghini-text {
@@ -352,7 +379,36 @@
     .landing-page-container .main .section-download {
         background-size: 50% 100%;
     }
+
+    .landing-page-container .main .section-why-choose-us {
+        height: auto;
+        background-position: 0% 0%;
+        background-size: 55%;
+    }
 }
+
+@media only screen and (max-width: 1255px) {
+
+    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-button {
+        width: 100% !important;
+        display: grid;
+        grid-row: 2;
+        grid-column: 1 / span 3;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-item .search-content {
+        margin-left: 10px;
+    }
+
+}
+
 
 @media only screen and (max-width: 991px) {
 
@@ -360,18 +416,11 @@
         height: auto;
     }
 
-    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .search-button {
-        width: 100% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .search-item::after {
+    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-item::after {
         display: none;
     }
 
-    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .row {
+    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box {
         gap: 5px 10px;
     }
 
@@ -470,6 +519,15 @@
     .landing-page-container .main .section-download .download-container .download-placeholder {
         margin-top: 70px;
     }
+
+    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-button {
+        grid-row: 2;
+        grid-column: 2 / span 1;
+    }
 }
 
 @media only screen and (max-width: 830px) {
@@ -507,6 +565,15 @@
     .landing-page-container .main .section-testimonials {
         background-position: 3% 13%, 98% 0%;
         background-size: 30%;
+    }
+
+    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box {
+        grid-template-columns: 1fr;
+    }
+
+    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-button {
+        grid-row: 4;
+        grid-column: 1 / span 1;
     }
 }
 
