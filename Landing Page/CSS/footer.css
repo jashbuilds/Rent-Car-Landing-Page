@@ -51,22 +51,6 @@
 }
 
 
-<<<<<<< HEAD
-@media only screen and (max-width: 1399px) {
-    .landing-page-container .footer-container .footer-row {
-        margin: auto 45px;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .landing-page-container .footer-container .footer-row {
-        margin: auto 59px;
-    }
-}
-
-
-=======
->>>>>>> 6dbec5fb3efafe0e335a68f75025f77c16013d00
 @media only screen and (max-width: 991px) {
     .landing-page-container .footer-container .footer-row .footer-cols {
         height: auto;

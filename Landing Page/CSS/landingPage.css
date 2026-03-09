@@ -15,12 +15,8 @@
 
 .landing-page-container .hero-wrapper .hero .hero-section .hero-container .hero-head-container .hero-head {
     max-width: 390px;
-    margin-left: 156px;
-<<<<<<< HEAD
-    margin-top: 70px;
-=======
+    margin-left: 128px;
     margin-top: 55px;
->>>>>>> 6dbec5fb3efafe0e335a68f75025f77c16013d00
 }
 
 .landing-page-container .hero-wrapper .hero .hero-section .hero-container .hero-img-container .hero-img {
@@ -39,14 +35,10 @@
     background: var(--primary-white);
     border-radius: 12px;
     box-shadow: 0px 6px 12px 0px #135EAC1F;
-<<<<<<< HEAD
-    margin: -29px 150px 0px 145px;
-=======
 }
 
 .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-item .search-content {
     padding-left: 8px;
->>>>>>> 6dbec5fb3efafe0e335a68f75025f77c16013d00
 }
 
 .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-item {
@@ -258,11 +250,7 @@
 .landing-page-container .main .section-download {
     background-image: url('../Images/download-bg.png');
     background-repeat: no-repeat;
-<<<<<<< HEAD
-    background-size: 41.5% 100%;
-=======
-    background-size: 43.2% 100%;
->>>>>>> 6dbec5fb3efafe0e335a68f75025f77c16013d00
+    background-size: 37% 100%;
 }
 
 .landing-page-container .main .section-download .download-container .download-placeholder {
@@ -294,12 +282,6 @@
     .landing-page-container .hero-wrapper {
         background-size: 650px 790px !important;
     }
-<<<<<<< HEAD
-    .landing-page-container .main .section-download .download-container { 
-        padding-left: 50px;
-    }
-=======
->>>>>>> 6dbec5fb3efafe0e335a68f75025f77c16013d00
     .landing-page-container .main .section-work .rent-steps,
     .landing-page-container .main .section-deals .deals-heading .deals-subhead,
     .landing-page-container .main .section-testimonials .testimonials-heading,
@@ -331,11 +313,8 @@
 
     .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-item .search-content {
         justify-content: center;
-<<<<<<< HEAD
-=======
         padding-left: 0px;
         gap: 1rem !important;
->>>>>>> 6dbec5fb3efafe0e335a68f75025f77c16013d00
     }
 
     .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-button {
@@ -346,13 +325,10 @@
         justify-content: center;
         align-items: center;
     }
-<<<<<<< HEAD
-=======
     .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .offer-text {
         font-size: var(--semi-medium-font);
     }
     
->>>>>>> 6dbec5fb3efafe0e335a68f75025f77c16013d00
 }
 
 @media only screen and (max-width: 1200px) {
@@ -362,27 +338,12 @@
     }
 
     .landing-page-container .hero-wrapper .hero .hero-section .hero-container .hero-head-container .hero-head {
-<<<<<<< HEAD
-        margin-left: 88px;
-=======
         margin-left: 120px;
->>>>>>> 6dbec5fb3efafe0e335a68f75025f77c16013d00
         margin-top: 0px;
     }
 
     .landing-page-container .hero-wrapper .hero .hero-section .hero-container .hero-head-container .hero-head .hero-para {
         font-size: var(--small-font);
-<<<<<<< HEAD
-    }
-
-    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .hero-head-container .hero-head .hero-heading {
-        font-size: var(--medium-font);
-    }
-
-    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card {
-        margin: 15px 77px 0px 77px;
-=======
->>>>>>> 6dbec5fb3efafe0e335a68f75025f77c16013d00
     }
 
     .landing-page-container .hero-wrapper .hero .hero-section .hero-container .hero-head-container .hero-head .hero-heading {
@@ -400,12 +361,7 @@
 
     .landing-page-container .main .section-work .rent-steps,
     .landing-page-container .main .section-deals .deals-heading .deals-subhead,
-<<<<<<< HEAD
-    .landing-page-container .main .section-testimonials .testimonials-heading,
-    .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .offer-text {
-=======
     .landing-page-container .main .section-testimonials .testimonials-heading {
->>>>>>> 6dbec5fb3efafe0e335a68f75025f77c16013d00
         font-size: var(--semi-medium-font);
     }
 
@@ -447,11 +403,6 @@
         width: auto;
         height: auto;
     }
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> 6dbec5fb3efafe0e335a68f75025f77c16013d00
     .landing-page-container .main .section-download .download-container .download-text {
         font-size: var(--medium-font) !important;
     }
@@ -536,10 +487,6 @@
 
     .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .card-content .card-subhead {
         width: 100% !important;
-    }
-
-    .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .card-content .card-head {
-        margin-top: 13px;
     }
 
     .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .offer-text {
