@@ -56,7 +56,7 @@
     background-color: var(--primary-blue-dark);
 }
 
-.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box >.search-item:nth-child(-n+2)::after {
+.landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box>.search-item:nth-child(-n+2)::after {
     content: "";
     position: absolute;
     right: 0;
@@ -164,12 +164,13 @@
     background-color: var(--primary-blue) !important;
 }
 
-.landing-page-container .main .section-deals .cards-row .card-container .btn-primary:hover{
+.landing-page-container .main .section-deals .cards-row .card-container .btn-primary:hover {
     background-color: var(--primary-blue-dark) !important;
 }
 
 .landing-page-container .main .section-deals .cards-row .card-container .card-img-container {
-    height: 140px;
+    /* height: 140px; */
+    padding-top: 20px;
     border-radius: 16px;
 }
 
@@ -263,17 +264,25 @@
 
 /* Media Queries - Landing Page */
 
+@media only screen and (max-width: 1600px) {
+    .landing-page-container .main .section-download .app-img .download-img {
+        width: 100% !important;
+    }
+}
+
 @media only screen and (max-width: 1500px) {
     .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card {
         width: 75% !important;
+        margin-top: 20px !important;
     }
 
     .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .offer-text {
         font-size: var(--medium-font);
         width: 90% !important;
     }
+
     .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .card-content .card-subhead {
-        width: 75% !important;       
+        width: 75% !important;
     }
 
 }
@@ -282,11 +291,17 @@
     .landing-page-container .hero-wrapper {
         background-size: 650px 790px !important;
     }
+
     .landing-page-container .main .section-work .rent-steps,
     .landing-page-container .main .section-deals .deals-heading .deals-subhead,
     .landing-page-container .main .section-testimonials .testimonials-heading,
     .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .offer-text {
         font-size: var(--medium-font);
+    }
+
+    .landing-page-container .main .section-download .app-img .download-img {
+        right: 0px !important;
+        justify-content: center !important;
     }
 }
 
@@ -305,6 +320,10 @@
 }
 
 @media only screen and (max-width: 1255px) {
+
+    .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card {
+        margin-top: 40px !important;
+    }
 
     .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box {
         display: grid;
@@ -325,10 +344,11 @@
         justify-content: center;
         align-items: center;
     }
+
     .landing-page-container .main .section-why-choose-us .why-choose-us-container .col-two .offer-text {
         font-size: var(--semi-medium-font);
     }
-    
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -369,10 +389,6 @@
         width: 100% !important;
     }
 
-    .landing-page-container .main .section-deals .cards-row .card-container .card-img-container {
-        margin-top: 20px;
-    }
-
     .landing-page-container .main .section-deals .cards-row {
         justify-content: center;
     }
@@ -397,17 +413,26 @@
 
     .landing-page-container .main .section-download .download-container {
         padding: 0px 70px;
-    } 
+    }
 
     .landing-page-container .main .section-download .download-container .store-img {
         width: auto;
         height: auto;
     }
+
     .landing-page-container .main .section-download .download-container .download-text {
         font-size: var(--medium-font) !important;
     }
+
     .landing-page-container .hero-wrapper .hero .hero-section .hero-container .hero-head-container .hero-head .hero-heading .text-easily .line-curve {
         bottom: -7px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .landing-page-container .main .section-download .app-img .download-img {
+        position: absolute;
+        right: -50px;
     }
 }
 
@@ -598,13 +623,15 @@
         grid-column: 1 / span 1;
         justify-content: center;
     }
+
     .landing-page-container .hero-wrapper .hero .hero-section .hero-container .search-card .box .search-item {
         margin-left: 0px;
     }
+
     .landing-page-container .main .section-testimonials .card-slider .card-track .card-container .card-content-container .card-content .reviewer-name {
         margin-top: 35px !important;
     }
-    
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -619,8 +646,7 @@
     }
 
     .landing-page-container .main .section-deals .cards-row .card-container .card-img-container {
-        height: 175px;
-        margin-top: 40px;
+        height: auto;
     }
 
     .landing-page-container .main .section-deals .cards-row .card-container .hr {
@@ -663,7 +689,7 @@
         background-image: none;
     }
 
-    
+
 }
 
 @media only screen and (max-width: 560px) {
@@ -710,8 +736,9 @@
     .landing-page-container .main .section-why-choose-us {
         background-size: 100% 27%;
     }
+
     .landing-page-container .main .section-deals .cards-row .card-container .card-img-container {
-        margin-top: 10px;
+        margin-top: 0px;
     }
 
     .landing-page-container .main .section-download .download-container {

@@ -55,17 +55,15 @@
     .landing-page-container .footer-container .footer-row .footer-cols {
         height: auto;
     }
+
+    .landing-page-container .footer-container .footer-row .footer-cols .social-icons {
+        margin-bottom: 55px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .landing-page-container .footer-container .footer-row .footer-cols {
-        height: 200px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .landing-page-container .footer-container .footer-row .footer-cols .social-icons {
-        margin-bottom: 70px;
+        height: auto;
     }
 }
 
@@ -76,11 +74,6 @@
 
     .landing-page-container .footer-container .footer-row .footer-cols {
         margin-top: 30px !important;
-        height: auto !important;
-    }
-
-    .landing-page-container .footer-container .footer-row .footer-cols .social-icons {
-        margin-bottom: 55px;
     }
 
     .landing-page-container .footer-container .footer-row .footer-cols .footer-contact .contact-list .list-item .list-text {

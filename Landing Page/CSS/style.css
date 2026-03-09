@@ -253,6 +253,10 @@
     margin-top: 60px;
 }
 
+.mt-m-45 {
+    margin-top: -45px;
+}
+
 .mb-100 {
     margin-bottom: 100px;
 }
